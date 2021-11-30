@@ -10,14 +10,18 @@ version = "0.7.0"
 
 repositories {
     mavenCentral()
+    maven ("https://maven.aliyun.com/repository/public" )
+    maven ("https://maven.aliyun.com/repository/jcenter" )
+    maven ("https://maven.aliyun.com/repository/google" )
+    maven ("https://maven.aliyun.com/repository/gradle-plugin")
     maven("https://maven.google.com")
     maven("https://jetbrains.bintray.com/trove4j")
 }
 
 dependencies {
     implementation("com.google.guava:guava:23.0")
-    implementation("com.android.tools:sdk-common:27.2.0-alpha16")
-    implementation("com.android.tools:common:27.2.0-alpha16")
+    implementation("com.android.tools:sdk-common:27.2.2")
+    implementation("com.android.tools:common:27.2.2")
     implementation("com.squareup:kotlinpoet:1.9.0")
     implementation("org.ogce:xpp3:1.1.6")
 
